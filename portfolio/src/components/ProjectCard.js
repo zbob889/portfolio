@@ -4,7 +4,17 @@ import linkImg from '../img/open-in-new.png';
 export default function ProjectCard(props){
 
 
-    const {imgAlt, projectDesc, projectImg, projectName, projectUrl} = props;
+    const {gitUrl, imgAlt, projectDesc, projectImg, projectName, projectUrl} = props;
+
+    function goToGit(){
+        window.open(`${gitUrl}`);
+    };
+
+    function goToProject(){
+        window.open(`${projectUrl}`);
+    };
+
+    console.log(gitUrl);
 
     return(
         <div className="projectCard">
@@ -13,8 +23,8 @@ export default function ProjectCard(props){
                 <div className='projectHeader'>
                     <p className='projectName'>{projectName}</p>
                     <div className='projectIcons'>
-                        <img className='projectIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Link to git-project' />
-                        <img className='projectIcon' src={linkImg} alt="Link to project" />
+                        <input onClick={goToGit} type='image' className='projectIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Link to git-project' />
+                        <input onClick={goToProject} type='image' className='projectIcon' src={linkImg} alt="Link to project" />
                     </div>
                 </div>
                 <p className='projectDescription'>{projectDesc}</p>

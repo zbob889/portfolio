@@ -3,6 +3,15 @@ import ProfilePicture from '../img/placeholder-picture.jpeg';
 
 export default function Header(){
 
+    function goToGit() {
+        window.open("https://github.com/zbob889");
+    };
+
+    function goToLinkedIn() {
+        window.open("https://www.w3schools.com");
+    }
+    
+
     return(
         <div className='headerContainer'>
             <img className='profilePicture' src={ProfilePicture} alt="Me wearing a beanie, glasses, and a winter coat" />
@@ -13,8 +22,10 @@ export default function Header(){
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div className='aboutMeFooter'>
-                <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Link to my Github' />
-                <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt='Link to my LinkedIn' />
+                <input onClick={goToGit} type='image' className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+                    alt='Link to my Github' />
+                <input onClick={goToLinkedIn} type='image' className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                    alt='Link to my LinkedIn' />
             </div>
         </div>
     );

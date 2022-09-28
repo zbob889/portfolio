@@ -5,6 +5,14 @@ import PhoneImg from '../img/phone.png'
 
 export default function Footer(){
 
+    function goToGit() {
+        window.open("https://github.com/zbob889");
+    };
+
+    function goToLinkedIn() {
+        window.open("https://www.w3schools.com");
+    }
+
     return(
         <div className='footerContainer'>
             <div className='contactInfo'>
@@ -25,9 +33,9 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className='footerIcons'>
-                    <img className='footerIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+                    <input onClick={goToGit} type='image' className='footerIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
                         alt='Link to my Github' />
-                    <img className='footerIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                    <input onClick={goToLinkedIn} type='image' className='footerIcon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
                         alt='Link to my LinkedIn' />
                 </div>
             </div>

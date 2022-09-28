@@ -11,6 +11,7 @@ export default function Projects(){
             <div className='projectContainer'>
                 <ProjectCard
                     projectUrl='https://zbob889.github.io/battleship/dist/index.html'
+                    gitUrl='https://github.com/zbob889/battleship'
                     projectImg={BattleshipImg}
                     imgAlt='My battleship app'
                     projectName='Battleship'
@@ -19,6 +20,7 @@ export default function Projects(){
 
                 <ProjectCard 
                     projectUrl='https://zbob889.github.io/weather-app/dist/index.html'
+                    gitUrl='https://github.com/zbob889/weather-app'
                     projectImg={WeatherImg}
                     imgAlt='My weather app'
                     projectName='Weather App'
@@ -27,6 +29,7 @@ export default function Projects(){
 
             <ProjectCard
                     projectUrl='https://zbob889.github.io/battleship/dist/index.html'
+                    gitUrl='https://github.com/zbob889/battleship'
                     projectImg={BattleshipImg}
                     imgAlt='My battleship app'
                     projectName='Battleship'
