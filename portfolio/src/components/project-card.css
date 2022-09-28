@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.projectCard {
+    max-width: 320px;
+    max-height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.projectImg {
+    max-width: 320px;
+    min-height: 320px;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 280px;
+    padding: 10px;
+}
+
+.projectHeader{
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+}
+
+.projectName {
+    font-size: 20px;
+}
+
+.projectIcons {
+    display: flex;
+    gap: 5px;
+}
+
+.projectIcon {
+    max-width: 20px;
+}
+
+.projectDescription {
+    color: gray;
+}
