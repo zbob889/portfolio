@@ -1,4 +1,4 @@
-import './project.css';
+import '../style/project.css';
 import ProjectCard from './ProjectCard';
 import BattleshipImg from '../img/project-img/Battleship-App.png';
 import WeatherImg from '../img/project-img/Weather-App.png';

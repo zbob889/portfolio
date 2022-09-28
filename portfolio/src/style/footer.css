@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footerContainer {
+    background-color: var(--background-blue);
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 759px){
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footerPicture {
+        margin-top: 20px;
+    }
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactMe {
+    font-size: 30px;
+}
+
+.phoneAndEmail {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.footerIcon {
+    max-width: 30px;
+}
+
+.footerPicture {
+    min-width: 280px;
+    max-width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-self: center;
+}

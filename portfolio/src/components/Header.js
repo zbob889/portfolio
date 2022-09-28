@@ -1,4 +1,4 @@
-import './header.css';
+import '../style/header.css'
 import ProfilePicture from '../img/placeholder-picture.jpeg';
 
 export default function Header(){

@@ -1,4 +1,4 @@
-import './project-card.css';
+import '../style/project-card.css';
 import linkImg from '../img/open-in-new.png';
 
 export default function ProjectCard(props){
