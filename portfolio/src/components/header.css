@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+    min-width: 320px;
+    background-color: var(--background-blue);
+    min-height: 320px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profilePicture {
+    min-width: 280px;
+    max-width: 280px;
+    float: left;
+    left: 20px;
+    top: 20px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.myName {
+    position: absolute;
+    color: white;
+    left: 88px;
+    top: 270px;
+    font-size: 20px;
+}
+
+@media (max-width: 390px) {
+    .profilePicture {
+        float: none;
+        margin-right: 0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .myName {
+        left: 110px;
+    }
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.aboutMeFooter {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.icon {
+    max-width: 30px;
+}
