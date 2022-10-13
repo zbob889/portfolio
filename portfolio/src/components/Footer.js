@@ -10,7 +10,7 @@ export default function Footer(){
     };
 
     function goToLinkedIn() {
-        window.open("https://www.w3schools.com");
+        window.open("https://www.linkedin.com/in/zachary-roberts-b7658b253/");
     }
 
     return(
