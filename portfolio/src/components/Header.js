@@ -17,10 +17,13 @@ export default function Header(){
             <img className='profilePicture' src={ProfilePicture} alt="Me wearing a beanie, glasses, and a winter coat" />
             <p className='myName'>Zachary Roberts</p>
             <p className='title'>About Me</p>
-            <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='text'>Before web development, I struggled with finding a career that would scratch my brain in the right
+                ways.  I love language and linguistics, formal logic, and anything and everything creative.</p>
+            <p className='text'>But once I began studying web development full time via The Odin Project, I knew that I had found 
+                a career path I could be passionate about.  Something that would satisfy my drive to problem solve and fulfill my 
+                desire for life-long learning, all while letting me express myself creatively.</p>
+            <p className='text'>Now I'm looking to use and improve my web development skills.  Have any entry level position on 
+                your team and are looking for someone disciplined who loves to learn from those around them?  I'm your person.</p>
             <div className='aboutMeFooter'>
                 <input onClick={goToGit} type='image' className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
                     alt='Link to my Github' />

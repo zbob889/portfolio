@@ -19,17 +19,17 @@ export default function Footer(){
                 <p className='contactMe'>Contact Me</p>
                 <p>Please get in touch if you think our work could be mutually beneficial!</p>
                 <div>
-                    <p>1234 Random Road</p>
-                    <p>Random Town, Random State 12345</p>
+                    {/* <p>1234 Random Road</p> */}
+                    <p>Arnhem, Netherlands </p>
                 </div>
                 <div>
                     <div className='phoneAndEmail'>
                         <img className='footerIcon' src={PhoneImg} alt="Phone" />
-                        <p>555-555-5555</p>
+                        <p>+31 06 82 81 88 84</p>
                     </div>
                     <div className='phoneAndEmail'>
                         <img className='footerIcon' src={EmailImg} alt="Email" />
-                        <p>email@gmail.com</p>
+                        <p>zroberts1138@gmail.com</p>
                     </div>
                 </div>
                 <div className='footerIcons'>
