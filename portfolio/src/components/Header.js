@@ -1,5 +1,5 @@
 import '../style/header.css'
-import ProfilePicture from '../img/placeholder-picture.jpeg';
+import ProfilePicture from '../img/picture-of-me.JPG';
 
 export default function Header(){
 

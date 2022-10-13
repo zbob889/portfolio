@@ -1,5 +1,5 @@
 import '../style/footer.css';
-import ProfilePicture from '../img/placeholder-picture.jpeg';
+import ProfilePicture from '../img/picture-of-me.JPG';
 import EmailImg from '../img/email.png';
 import PhoneImg from '../img/phone.png'
 
