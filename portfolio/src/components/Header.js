@@ -22,7 +22,7 @@ export default function Header(){
             <p className='text'>But once I began studying web development full time via The Odin Project, I knew that I had found 
                 a career path I could be passionate about.  Something that would satisfy my drive to problem solve and fulfill my 
                 desire for life-long learning, all while letting me express myself creatively.</p>
-            <p className='text'>Now I'm looking to use and improve my web development skills.  Have any entry level position on 
+            <p className='text'>Now I'm looking to use and improve my web development skills.  Have an entry level position on 
                 your team and are looking for someone disciplined who loves to learn from those around them?  I'm your person.</p>
             <div className='aboutMeFooter'>
                 <input onClick={goToGit} type='image' className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
