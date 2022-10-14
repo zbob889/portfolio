@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d607e85f.css",
-    "main.js": "/portfolio/static/js/main.dd72b096.js",
+    "main.css": "/portfolio/static/css/main.3ba2cb94.css",
+    "main.js": "/portfolio/static/js/main.d2fb8ee8.js",
     "static/media/Battleship-App.png": "/portfolio/static/media/Battleship-App.a3c203f41b196cad8ffa.png",
     "static/media/PenStore.png": "/portfolio/static/media/PenStore.a0062f9b9ed29dc1c147.png",
-    "static/media/placeholder-picture.jpeg": "/portfolio/static/media/placeholder-picture.1031a71e031bd7f50d22.jpeg",
+    "static/media/picture-of-me.JPG": "/portfolio/static/media/picture-of-me.8ec80e6f894a4c982bfd.JPG",
     "static/media/Weather-App.png": "/portfolio/static/media/Weather-App.68beba9ec6a954f7e416.png",
     "index.html": "/portfolio/index.html",
-    "main.d607e85f.css.map": "/portfolio/static/css/main.d607e85f.css.map",
-    "main.dd72b096.js.map": "/portfolio/static/js/main.dd72b096.js.map"
+    "main.3ba2cb94.css.map": "/portfolio/static/css/main.3ba2cb94.css.map",
+    "main.d2fb8ee8.js.map": "/portfolio/static/js/main.d2fb8ee8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d607e85f.css",
-    "static/js/main.dd72b096.js"
+    "static/css/main.3ba2cb94.css",
+    "static/js/main.d2fb8ee8.js"
   ]
 }
