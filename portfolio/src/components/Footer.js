@@ -17,7 +17,7 @@ export default function Footer(){
         <div className='footerContainer'>
             <div className='contactInfo'>
                 <p className='contactMe'>Contact Me</p>
-                <p>Please get in touch if you think our work could be mutually beneficial!</p>
+                <p>Please get in touch to discuss how I can contribute to your organization's software efforts!</p>
                 <div>
                     {/* <p>1234 Random Road</p> */}
                     <p>Arnhem, Netherlands </p>
